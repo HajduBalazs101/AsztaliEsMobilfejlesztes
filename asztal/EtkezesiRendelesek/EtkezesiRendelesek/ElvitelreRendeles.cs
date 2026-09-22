@@ -19,7 +19,7 @@ namespace EtkezesiRendelesek
 
         public override string ToString()
         {
-            return base.ToString() + $", Cím: {cim}, Futár neve: {futarneve}";
+            return "E;"+ base.ToString() + $";{cim};{futarneve}";
         }
 
     }

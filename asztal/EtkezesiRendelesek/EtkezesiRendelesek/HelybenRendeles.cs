@@ -16,7 +16,7 @@ namespace EtkezesiRendelesek
         }
         public override string ToString()
         {
-            return base.ToString() + $", Asztal Szám: {asztalSzam}";
+            return "H;" +  base.ToString() + $";{asztalSzam}";
         }   
         
     }

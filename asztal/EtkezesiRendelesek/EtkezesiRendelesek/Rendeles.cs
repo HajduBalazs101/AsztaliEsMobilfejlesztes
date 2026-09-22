@@ -26,7 +26,7 @@ namespace EtkezesiRendelesek
 
         public override string ToString()
         {
-            return $"Rendelés ID: {rendelesId}, Ételek: {string.Join(", ", etelek)}, Ár: {ar}";
+            return $"{rendelesId};{string.Join("," , etelek)};{ar}";
         }
     }
 }
