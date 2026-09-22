@@ -23,5 +23,10 @@ namespace EtkezesiRendelesek
         {
             etelek.Add(Etel);
         }
+
+        public override string ToString()
+        {
+            return $"Rendelés ID: {rendelesId}, Ételek: {string.Join(", ", etelek)}, Ár: {ar}";
+        }
     }
 }
